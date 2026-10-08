@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="papel">#FFFBF6EC</color>
+    <color name="papel_escuro">#FFF1E8D6</color>
+    <color name="branco_postal">#FFFFFFFF</color>
+    <color name="tinta">#FF1F2A44</color>
+    <color name="tinta_suave">#FF5B6475</color>
+    <color name="linha">#FFE3D8C3</color>
+    <color name="vermelho_aereo">#FFD64545</color>
+    <color name="vermelho_aereo_escuro">#FFA83232</color>
+    <color name="azul_aereo">#FF2F5DA8</color>
+    <color name="mostarda">#FFE8B04B</color>
+    <color name="cera">#FFB23A3A</color>
+</resources>

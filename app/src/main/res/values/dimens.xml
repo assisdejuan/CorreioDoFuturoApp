@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margem_tela">20dp</dimen>
+    <dimen name="espaco_p">6dp</dimen>
+    <dimen name="espaco_m">12dp</dimen>
+    <dimen name="espaco_g">20dp</dimen>
+    <dimen name="altura_faixa">8dp</dimen>
+    <dimen name="tamanho_selo">88dp</dimen>
+    <dimen name="tamanho_envelope">150dp</dimen>
+    <dimen name="altura_botao">54dp</dimen>
+</resources>

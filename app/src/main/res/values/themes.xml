@@ -1,0 +1,32 @@
+<resources>
+    <style name="Base.Tema.Correio" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/azul_aereo</item>
+        <item name="colorOnPrimary">@color/branco_postal</item>
+        <item name="colorSecondary">@color/vermelho_aereo</item>
+        <item name="colorError">@color/vermelho_aereo_escuro</item>
+        <item name="android:colorBackground">@color/papel</item>
+        <item name="colorSurface">@color/papel</item>
+        <item name="colorSurfaceContainerHighest">@color/papel_escuro</item>
+        <item name="colorOnSurface">@color/tinta</item>
+        <item name="colorOnSurfaceVariant">@color/tinta_suave</item>
+        <item name="android:statusBarColor">@color/papel</item>
+        <item name="android:navigationBarColor">@color/papel</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Tema.Correio" parent="Base.Tema.Correio" />
+
+    <!-- Campo de formulário no estilo "preenchido" -->
+    <style name="Campo.Postal" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusTopStart">6dp</item>
+        <item name="boxCornerRadiusTopEnd">6dp</item>
+    </style>
+
+    <style name="Botao.Selar" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/vermelho_aereo</item>
+        <item name="android:textColor">@color/branco_postal</item>
+        <item name="iconTint">@color/branco_postal</item>
+        <item name="cornerRadius">6dp</item>
+    </style>
+</resources>

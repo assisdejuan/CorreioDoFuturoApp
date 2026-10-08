@@ -1,0 +1,137 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="110dp"
+    android:viewportWidth="160"
+    android:viewportHeight="110">
+    <path
+        android:fillColor="@color/branco_postal"
+        android:strokeColor="@color/linha"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M8,10 L152,10 L152,100 L8,100 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M8,10 L14,10 L10,16 L4,16 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M8,100 L14,100 L18,94 L12,94 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M18,10 L24,10 L20,16 L14,16 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M18,100 L24,100 L28,94 L22,94 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M28,10 L34,10 L30,16 L24,16 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M28,100 L34,100 L38,94 L32,94 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M38,10 L44,10 L40,16 L34,16 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M38,100 L44,100 L48,94 L42,94 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M48,10 L54,10 L50,16 L44,16 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M48,100 L54,100 L58,94 L52,94 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M58,10 L64,10 L60,16 L54,16 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M58,100 L64,100 L68,94 L62,94 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M68,10 L74,10 L70,16 L64,16 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M68,100 L74,100 L78,94 L72,94 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M78,10 L84,10 L80,16 L74,16 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M78,100 L84,100 L88,94 L82,94 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M88,10 L94,10 L90,16 L84,16 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M88,100 L94,100 L98,94 L92,94 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M98,10 L104,10 L100,16 L94,16 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M98,100 L104,100 L108,94 L102,94 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M108,10 L114,10 L110,16 L104,16 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M108,100 L114,100 L118,94 L112,94 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M118,10 L124,10 L120,16 L114,16 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M118,100 L124,100 L128,94 L122,94 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M128,10 L134,10 L130,16 L124,16 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M128,100 L134,100 L138,94 L132,94 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M138,10 L144,10 L140,16 L134,16 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M138,100 L144,100 L148,94 L142,94 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M148,10 L154,10 L150,16 L144,16 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M148,100 L154,100 L158,94 L152,94 Z" />
+    <path
+        android:strokeColor="@color/linha"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M14,20 L80,58 L146,20" />
+    <path
+        android:fillColor="@color/mostarda"
+        android:strokeColor="@color/tinta"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M120,26 L142,26 L142,52 L120,52 Z" />
+    <path
+        android:strokeColor="@color/tinta"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M124.0,39.0 A7,7 0 1,1 138.0,39.0 A7,7 0 1,1 124.0,39.0 Z M131,39 L131,34 M131,39 L135,41" />
+    <path
+        android:strokeColor="@color/tinta_suave"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,70 L90,70 M30,78 L80,78 M30,86 L70,86" />
+    <path
+        android:fillColor="@color/cera"
+        android:pathData="M69.0,58.0 A11,11 0 1,1 91.0,58.0 A11,11 0 1,1 69.0,58.0 Z" />
+    <path
+        android:strokeColor="@color/branco_postal"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M74,58 A6,6 0 1,1 86,58 A6,6 0 1,1 74,58 Z M80,54 L80,58 L83,60" />
+</vector>

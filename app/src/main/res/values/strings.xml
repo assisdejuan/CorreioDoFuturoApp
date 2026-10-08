@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Correio do Futuro</string>
+
+    <!-- Tela de escrita -->
+    <string name="titulo_app">Correio do Futuro</string>
+    <string name="subtitulo_app">Uma carta que só chega quando o tempo deixar.</string>
+    <string name="rotulo_cartao">CÁPSULA DO TEMPO · VIA AÉREA</string>
+    <string name="dica_autor">De (seu nome)</string>
+    <string name="dica_titulo">Assunto da cápsula</string>
+    <string name="dica_ano">Entregar no ano</string>
+    <string name="ajuda_ano">A partir de 2027</string>
+    <string name="dica_mensagem">Querido eu do futuro…</string>
+    <string name="rotulo_importancia">Quanto isso importa?</string>
+    <string name="valor_importancia">%1$d%%</string>
+    <string name="importancia_minima">Lembrança</string>
+    <string name="importancia_maxima">Essencial</string>
+    <string name="botao_selar">Selar cápsula</string>
+
+    <!-- Erros -->
+    <string name="erro_autor">Quem está escrevendo?</string>
+    <string name="erro_titulo">Toda carta precisa de um assunto</string>
+    <string name="erro_ano_vazio">Em que ano ela deve chegar?</string>
+    <string name="erro_ano_invalido">Use um ano válido, com 4 dígitos</string>
+    <string name="erro_ano_passado">Escolha um ano depois de %1$d</string>
+    <string name="erro_mensagem_vazia">A carta está em branco</string>
+    <string name="erro_mensagem_curta">Escreva pelo menos %1$d caracteres (faltam %2$d)</string>
+
+    <!-- Tela da cápsula selada -->
+    <string name="titulo_tela_selada">Cápsula selada</string>
+    <string name="carimbo_selada">✉ LACRADA E PRONTA PARA VIAJAR</string>
+    <string name="resumo_capsula">Cápsula criada por %1$s para ser aberta em %2$d.</string>
+    <string name="remetente">Remetente: %1$s</string>
+    <string name="rotulo_entrega">ABERTURA EM</string>
+    <string name="rotulo_conteudo">Conteúdo da carta</string>
+    <string name="importancia_capsula">Importância: %1$d%%</string>
+    <string name="botao_editar">Editar</string>
+    <string name="botao_compartilhar">Compartilhar</string>
+    <string name="texto_compartilhado">Minha cápsula para %1$d: %2$s. %3$s</string>
+    <string name="titulo_escolha_app">Enviar cápsula por…</string>
+
+    <!-- Acessibilidade -->
+    <string name="desc_selo">Selo postal com um relógio no centro, símbolo do correio do futuro</string>
+    <string name="desc_envelope">Envelope de correio aéreo lacrado, com selo e bordas listradas</string>
+    <string name="desc_avaliacao">Importância representada em estrelas</string>
+</resources>

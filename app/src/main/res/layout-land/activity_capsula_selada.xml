@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/papel"
+    tools:context=".CapsulaSeladaActivity">
+
+    <View
+        android:id="@+id/faixa_aerea_topo"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/altura_faixa"
+        android:background="@drawable/faixa_aerea"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guia_colunas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <ImageView
+        android:id="@+id/imagem_envelope"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margem_tela"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/desc_envelope"
+        android:rotation="3"
+        android:src="@drawable/ic_envelope_aereo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guia_colunas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/faixa_aerea_topo" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/rolagem_carta"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guia_colunas"
+        app:layout_constraintTop_toBottomOf="@id/faixa_aerea_topo">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/area_carta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margem_tela">
+
+            <TextView
+                android:id="@+id/texto_carimbo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.1"
+                android:text="@string/carimbo_selada"
+                android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                android:textColor="@color/vermelho_aereo"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        
+            <TextView
+                android:id="@+id/texto_titulo_capsula"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaco_p"
+                android:fontFamily="serif"
+                android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                android:textColor="@color/tinta"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/texto_carimbo"
+                tools:text="Uma mensagem para o meu futuro" />
+        
+            <TextView
+                android:id="@+id/texto_resumo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaco_p"
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:textColor="@color/tinta_suave"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/texto_titulo_capsula"
+                tools:text="Cápsula criada por Fernando para ser aberta em 2030." />
+        
+            <!-- Bloco de entrega: remetente à esquerda, ano em destaque à direita -->
+            <TextView
+                android:id="@+id/texto_remetente"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/espaco_m"
+                android:fontFamily="serif"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textColor="@color/tinta"
+                app:layout_constraintBottom_toBottomOf="@id/texto_ano_entrega"
+                app:layout_constraintEnd_toStartOf="@id/texto_ano_entrega"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="Remetente: Fernando" />
+        
+            <TextView
+                android:id="@+id/texto_rotulo_entrega"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaco_g"
+                android:letterSpacing="0.15"
+                android:text="@string/rotulo_entrega"
+                android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+                android:textColor="@color/azul_aereo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/texto_resumo" />
+        
+            <TextView
+                android:id="@+id/texto_ano_entrega"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textAppearance="@style/TextAppearance.Material3.DisplaySmall"
+                android:textColor="@color/azul_aereo"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/texto_rotulo_entrega"
+                tools:text="2030" />
+        
+            <LinearLayout
+                android:id="@+id/bloco_mensagem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaco_m"
+                android:background="@drawable/fundo_cartao_mensagem"
+                android:orientation="vertical"
+                android:padding="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/texto_ano_entrega">
+        
+                <TextView
+                    android:id="@+id/texto_rotulo_conteudo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotulo_conteudo"
+                    android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                    android:textColor="@color/vermelho_aereo" />
+        
+                <TextView
+                    android:id="@+id/texto_mensagem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/espaco_p"
+                    android:fontFamily="serif"
+                    android:lineSpacingMultiplier="1.3"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                    android:textColor="@color/tinta"
+                    android:textIsSelectable="true"
+                    android:textStyle="italic"
+                    tools:text="Espero que você ainda se lembre dos sonhos que tinha quando escreveu esta mensagem." />
+            </LinearLayout>
+        
+            <TextView
+                android:id="@+id/texto_importancia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaco_m"
+                android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+                android:textColor="@color/tinta"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bloco_mensagem"
+                tools:text="Importância: 85%" />
+        
+            <RatingBar
+                android:id="@+id/avaliacao_importancia"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/desc_avaliacao"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:progressTint="@color/mostarda"
+                android:secondaryProgressTint="@color/mostarda"
+                android:stepSize="0.1"
+                app:layout_constraintBottom_toBottomOf="@id/texto_importancia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/texto_importancia"
+                tools:rating="4.2" />
+        
+            <!-- Chain horizontal alinhada à direita -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/botao_editar"
+                style="@style/Widget.Material3.Button.TextButton.Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/altura_botao"
+                android:layout_marginTop="@dimen/espaco_g"
+                android:layout_marginEnd="@dimen/espaco_p"
+                android:text="@string/botao_editar"
+                app:icon="@drawable/ic_lapis"
+                app:iconTint="@color/azul_aereo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/botao_compartilhar"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/texto_importancia"
+                app:layout_constraintVertical_bias="0" />
+        
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/botao_compartilhar"
+                style="@style/Botao.Selar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/altura_botao"
+                android:text="@string/botao_compartilhar"
+                app:icon="@drawable/ic_enviar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/botao_editar"
+                app:layout_constraintTop_toTopOf="@id/botao_editar" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

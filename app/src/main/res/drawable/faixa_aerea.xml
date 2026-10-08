@@ -1,0 +1,75 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="8dp"
+    android:viewportWidth="240"
+    android:viewportHeight="8">
+    <path
+        android:fillColor="@color/branco_postal"
+        android:pathData="M0,0 L240,0 L240,8 L0,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M-8,8 L-2,0 L4,0 L-2,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M4,8 L10,0 L16,0 L10,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M16,8 L22,0 L28,0 L22,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M28,8 L34,0 L40,0 L34,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M40,8 L46,0 L52,0 L46,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M52,8 L58,0 L64,0 L58,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M64,8 L70,0 L76,0 L70,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M76,8 L82,0 L88,0 L82,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M88,8 L94,0 L100,0 L94,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M100,8 L106,0 L112,0 L106,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M112,8 L118,0 L124,0 L118,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M124,8 L130,0 L136,0 L130,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M136,8 L142,0 L148,0 L142,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M148,8 L154,0 L160,0 L154,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M160,8 L166,0 L172,0 L166,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M172,8 L178,0 L184,0 L178,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M184,8 L190,0 L196,0 L190,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M196,8 L202,0 L208,0 L202,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M208,8 L214,0 L220,0 L214,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M220,8 L226,0 L232,0 L226,8 Z" />
+    <path
+        android:fillColor="@color/vermelho_aereo"
+        android:pathData="M232,8 L238,0 L244,0 L238,8 Z" />
+    <path
+        android:fillColor="@color/azul_aereo"
+        android:pathData="M244,8 L250,0 L256,0 L250,8 Z" />
+</vector>
